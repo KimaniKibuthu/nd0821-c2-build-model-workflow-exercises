@@ -1,0 +1,31 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-11-10T09:32:15.977282",
+    "startedAt": "2021-11-10T09:31:49.778404",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_file",
+        "my_artifact.txt",
+        "--artifact_name",
+        "my_artifact",
+        "--artifact_type",
+        "uploads file",
+        "--artifact_description",
+        "An artifact that uploads files"
+    ],
+    "state": "running",
+    "program": "c:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py",
+    "git": {
+        "remote": "https://github.com/KimaniKibuthu/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "bbc02b859b3b92aeb668f849f6f3f0d7e881004d"
+    },
+    "email": "32309808+KimaniKibuthu@users.noreply.github.com",
+    "root": "C:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises",
+    "host": "DESKTOP-DCSSA3D",
+    "username": "Spectra",
+    "executable": "C:\\Users\\Spectra\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}
