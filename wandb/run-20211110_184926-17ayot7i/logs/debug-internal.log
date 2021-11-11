@@ -1,0 +1,69 @@
+2021-11-10 18:49:30,049 INFO    MainThread:4976 [internal.py:wandb_internal():90] W&B internal server running at pid: 4976, started at: 2021-11-10 18:49:30.048205
+2021-11-10 18:49:30,053 INFO    WriterThread:4976 [datastore.py:open_for_write():77] open: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211110_184926-17ayot7i\run-17ayot7i.wandb
+2021-11-10 18:49:30,054 DEBUG   HandlerThread:4976 [handler.py:handle_request():130] handle_request: check_version
+2021-11-10 18:49:30,057 DEBUG   SenderThread:4976 [sender.py:send():238] send: header
+2021-11-10 18:49:30,057 DEBUG   SenderThread:4976 [sender.py:send_request():252] send_request: check_version
+2021-11-10 18:49:30,070 DEBUG   SenderThread:4976 [sender.py:send():238] send: run
+2021-11-10 18:49:33,318 ERROR   SenderThread:4976 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001CA48E8D088>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CA48E8D088>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\internal\internal_api.py", line 141, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Spectra\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CA48E8D088>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-11-10 18:50:00,085 DEBUG   HandlerThread:4976 [handler.py:handle_request():130] handle_request: shutdown
+2021-11-10 18:50:00,086 INFO    HandlerThread:4976 [handler.py:finish():731] shutting down handler
+2021-11-10 18:50:00,258 INFO    WriterThread:4976 [datastore.py:close():281] close: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211110_184926-17ayot7i\run-17ayot7i.wandb
