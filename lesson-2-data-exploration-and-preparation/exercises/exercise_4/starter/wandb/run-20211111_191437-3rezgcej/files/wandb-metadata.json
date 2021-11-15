@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-11-11T16:15:13.714642",
+    "startedAt": "2021-11-11T16:14:37.162612",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"6a5685dc-6dbb-4157-bcd1-6793f3de953a\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\Spectra\\AppData\\Local\\Temp\\tmp-16020X1m6W45q0AjP.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/KimaniKibuthu/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "2445253ee2e2a292dca3edc798a502f1f44e4249"
+    },
+    "email": "32309808+KimaniKibuthu@users.noreply.github.com",
+    "root": "c:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises",
+    "host": "DESKTOP-DCSSA3D",
+    "username": "Spectra",
+    "executable": "C:\\Users\\Spectra\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}

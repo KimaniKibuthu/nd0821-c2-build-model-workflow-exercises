@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/b8085a06364445a3aed6107769410688/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b8085a06364445a3aed6107769410688
+run_uuid: b8085a06364445a3aed6107769410688
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1636607248506
+status: 1
+tags: []
+user_id: Spectra

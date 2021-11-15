@@ -1,0 +1,79 @@
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/conda.yml b/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/conda.yml
+index 7843ca8..42cd9c8 100644
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/conda.yml
++++ b/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/conda.yml
+@@ -1,8 +1,9 @@
+-name:download_data
++name: download_data
+ channels:
+-    - conda-forge
+-    - defaults
+-dependancies:
+-    - requests=2.24.0
+-    - pip=20.3.3
+-    - wandb=0.10.21
+\ No newline at end of file
++  - conda-forge
++  - defaults
++dependencies:
++  - requests=2.24.0
++  - pip=20.3.3
++  - pip:
++      - wandb==0.10.21
+\ No newline at end of file
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/conda.yml b/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/conda.yml
+index b735436..f216511 100644
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/conda.yml
++++ b/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/conda.yml
+@@ -1,6 +1,13 @@
+-name: exercise_3
++name: download_data
+ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  # Complete HERE
++  - jupyterlab=3.0.12
++  - seaborn=0.11.1
++  - pandas=1.2.3
++  - pip=20.3.3
++  - pandas-profiling=2.11.0
++  - pyarrow=2.0
++  - pip:
++      - wandb==0.10.21
+\ No newline at end of file
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/main.py b/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/main.py
+index 47fba9e..471d8f0 100644
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/main.py
++++ b/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/main.py
+@@ -26,6 +26,17 @@ def go(config: DictConfig):
+         },
+     )
+ 
++    _ = mlflow.run(
++        os.path.join(root_path, "process_data"),
++        "main",
++        parameters={
++            "input-artifacft":"iris.csv:latest",
++            "artifact_name": "clean.csv:latest",
++            "artifact_type": "clean_data",
++            "artifact_description": "Processed  data"
++        },
++    )
++
+     ##################
+     # Your code here: use the artifact we created in the previous step as input for the `process_data` step
+     # and produce a new artifact called "cleaned_data".
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+index e69de29..71bbf66 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+@@ -0,0 +1,7 @@
++name: download_data
++conda_env: conda.yml
++
++entry_points:
++  main:
++    command: >-
++      jupyter notebook
+\ No newline at end of file

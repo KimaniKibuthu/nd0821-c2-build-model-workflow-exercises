@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-11-15T11:28:22.184054",
+    "startedAt": "2021-11-15T11:28:16.656471",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "lesson-3-data-validation\\exercises\\exercise_7\\starter\\test_data.py"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Spectra\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\pytest.exe\\__main__.py",
+    "git": {
+        "remote": "https://github.com/KimaniKibuthu/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "2445253ee2e2a292dca3edc798a502f1f44e4249"
+    },
+    "email": "32309808+KimaniKibuthu@users.noreply.github.com",
+    "root": "C:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises",
+    "host": "DESKTOP-DCSSA3D",
+    "username": "Spectra",
+    "executable": "c:\\users\\spectra\\appdata\\local\\programs\\python\\python37\\python.exe"
+}
