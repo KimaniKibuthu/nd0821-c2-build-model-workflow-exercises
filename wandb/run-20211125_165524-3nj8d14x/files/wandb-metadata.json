@@ -1,0 +1,31 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-11-25T13:55:29.809555",
+    "startedAt": "2021-11-25T13:55:24.046952",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris",
+        "--artifact_description",
+        "Dataset with three types of irises",
+        "--artifact_type",
+        "raw data"
+    ],
+    "state": "running",
+    "program": "c:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/solution/download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines\\exercises\\exercise_2\\solution\\download_data.py",
+    "git": {
+        "remote": "https://github.com/KimaniKibuthu/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "9562e9cdc30d9eb2175416aedc1f7d78204827c1"
+    },
+    "email": "32309808+KimaniKibuthu@users.noreply.github.com",
+    "root": "C:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises",
+    "host": "DESKTOP-DCSSA3D",
+    "username": "Spectra",
+    "executable": "C:\\Users\\Spectra\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}

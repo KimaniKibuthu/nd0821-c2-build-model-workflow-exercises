@@ -10,11 +10,28 @@ logger = logging.getLogger()
 
 
 def go(args):
-
+    # Initialize the run
     run = wandb.init(project="exercise_5", job_type="process_data")
 
-    ## YOUR CODE HERE
-    pass
+    # download the artifact to use
+    logger.info("Downloading artifact")
+    artifact = run.use_artifact(args.input_artifact)
+    #Open and do EDA
+    logger.info("Cleaning data")
+    data = pd.read_parquet(artifact.file())
+    data.drop_dupicates().reset_index(drop=True, inplace=True)
+    data['title'].fillna(value='', inplace=True)
+    data['song_name'].fillna(value='', inplace=True)
+    data['text_feature'] = data['title'] + ' ' + data['song_name']
+    
+    # Store artifact
+    logger.info('Storing artifact')
+    data.to_csv('preprocessed_data.csv', index=False)
+    artifact=wandb.Artifact(name=args.artifact_name,
+                            type=args.artifact_type,
+                            description=args.artifact_description)
+    artifact.add_file("preprocessed_data.csv")
+    run.log_artifact(artifact)
 
 
 if __name__ == "__main__":

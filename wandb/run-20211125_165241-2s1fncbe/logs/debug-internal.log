@@ -1,0 +1,165 @@
+2021-11-25 16:52:44,685 INFO    MainThread:20960 [internal.py:wandb_internal():90] W&B internal server running at pid: 20960, started at: 2021-11-25 16:52:44.684735
+2021-11-25 16:52:44,688 INFO    WriterThread:20960 [datastore.py:open_for_write():77] open: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\run-2s1fncbe.wandb
+2021-11-25 16:52:44,689 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: check_version
+2021-11-25 16:52:44,692 DEBUG   SenderThread:20960 [sender.py:send():238] send: header
+2021-11-25 16:52:44,693 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: check_version
+2021-11-25 16:52:45,023 DEBUG   SenderThread:20960 [sender.py:send():238] send: run
+2021-11-25 16:52:45,427 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: run_start
+2021-11-25 16:52:45,443 INFO    SenderThread:20960 [dir_watcher.py:__init__():169] watching files in: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files
+2021-11-25 16:52:45,443 INFO    SenderThread:20960 [sender.py:_start_run_threads():828] run started: 2s1fncbe with start time 1637848362
+2021-11-25 16:52:45,443 DEBUG   SenderThread:20960 [sender.py:send():238] send: summary
+2021-11-25 16:52:45,444 INFO    SenderThread:20960 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 16:52:47,002 INFO    Thread-12 :20960 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\wandb-summary.json
+2021-11-25 16:52:50,902 INFO    Thread-12 :20960 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\output.log
+2021-11-25 16:52:53,926 INFO    Thread-12 :20960 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\output.log
+2021-11-25 16:53:21,253 DEBUG   HandlerThread:20960 [meta.py:__init__():40] meta init
+2021-11-25 16:53:21,254 DEBUG   HandlerThread:20960 [meta.py:__init__():54] meta init done
+2021-11-25 16:53:21,254 DEBUG   HandlerThread:20960 [meta.py:probe():214] probe
+2021-11-25 16:53:21,283 DEBUG   HandlerThread:20960 [meta.py:_setup_git():204] setup git
+2021-11-25 16:53:21,504 DEBUG   HandlerThread:20960 [meta.py:_setup_git():211] setup git done
+2021-11-25 16:53:21,504 DEBUG   HandlerThread:20960 [meta.py:_save_pip():58] save pip
+2021-11-25 16:53:21,507 DEBUG   HandlerThread:20960 [meta.py:_save_pip():72] save pip done
+2021-11-25 16:53:21,507 DEBUG   HandlerThread:20960 [meta.py:probe():252] probe done
+2021-11-25 16:53:21,522 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-25 16:53:21,522 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: stop_status
+2021-11-25 16:53:21,526 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:21,526 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:21,526 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:21,526 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:21,527 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:21,527 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:21,861 DEBUG   SenderThread:20960 [sender.py:send():238] send: telemetry
+2021-11-25 16:53:21,867 DEBUG   SenderThread:20960 [sender.py:send():238] send: exit
+2021-11-25 16:53:21,867 INFO    SenderThread:20960 [sender.py:send_exit():370] handling exit code: 1
+2021-11-25 16:53:21,868 INFO    SenderThread:20960 [sender.py:send_exit():372] handling runtime: 36
+2021-11-25 16:53:21,871 INFO    SenderThread:20960 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 16:53:21,873 INFO    SenderThread:20960 [sender.py:send_exit():382] send defer
+2021-11-25 16:53:21,873 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:21,874 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:21,874 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:21,876 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:21,877 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:21,877 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 0
+2021-11-25 16:53:21,877 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:21,878 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:21,879 DEBUG   SenderThread:20960 [sender.py:send():238] send: files
+2021-11-25 16:53:21,879 INFO    SenderThread:20960 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-11-25 16:53:21,881 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:21,882 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-11-25 16:53:21,882 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 1
+2021-11-25 16:53:21,883 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:21,883 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 1
+2021-11-25 16:53:21,928 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:21,928 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-11-25 16:53:21,928 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 2
+2021-11-25 16:53:21,928 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:21,928 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 2
+2021-11-25 16:53:21,929 DEBUG   SenderThread:20960 [sender.py:send():238] send: stats
+2021-11-25 16:53:21,929 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:21,929 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-11-25 16:53:21,929 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 3
+2021-11-25 16:53:21,929 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:21,929 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 3
+2021-11-25 16:53:21,930 DEBUG   SenderThread:20960 [sender.py:send():238] send: summary
+2021-11-25 16:53:21,930 INFO    SenderThread:20960 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-25 16:53:21,930 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:21,931 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-11-25 16:53:21,931 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 4
+2021-11-25 16:53:21,931 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:21,931 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 4
+2021-11-25 16:53:21,931 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:21,931 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-11-25 16:53:21,991 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:22,263 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 5
+2021-11-25 16:53:22,263 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:22,263 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:22,263 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 5
+2021-11-25 16:53:22,264 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:22,264 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-11-25 16:53:22,264 INFO    SenderThread:20960 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-25 16:53:22,367 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:22,479 INFO    SenderThread:20960 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\config.yaml
+2021-11-25 16:53:22,480 INFO    SenderThread:20960 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\wandb-summary.json
+2021-11-25 16:53:22,481 INFO    SenderThread:20960 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\wandb-metadata.json
+2021-11-25 16:53:22,483 INFO    SenderThread:20960 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\requirements.txt
+2021-11-25 16:53:22,483 INFO    SenderThread:20960 [dir_watcher.py:finish():313] scan: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files
+2021-11-25 16:53:22,483 INFO    SenderThread:20960 [dir_watcher.py:finish():327] scan save: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\config.yaml config.yaml
+2021-11-25 16:53:22,483 INFO    SenderThread:20960 [dir_watcher.py:finish():327] scan save: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\output.log output.log
+2021-11-25 16:53:22,484 INFO    SenderThread:20960 [dir_watcher.py:finish():327] scan save: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\requirements.txt requirements.txt
+2021-11-25 16:53:22,489 INFO    SenderThread:20960 [dir_watcher.py:finish():327] scan save: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\wandb-metadata.json wandb-metadata.json
+2021-11-25 16:53:22,489 INFO    SenderThread:20960 [dir_watcher.py:finish():327] scan save: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\wandb-summary.json wandb-summary.json
+2021-11-25 16:53:22,490 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 6
+2021-11-25 16:53:22,490 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:22,495 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:22,495 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 6
+2021-11-25 16:53:22,495 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:22,495 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-11-25 16:53:22,495 INFO    SenderThread:20960 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-25 16:53:22,604 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:22,604 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:22,717 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:22,718 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:22,824 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:22,825 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:22,933 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:22,933 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,044 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,045 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,155 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,155 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,236 INFO    Thread-17 :20960 [upload_job.py:push():137] Uploaded file C:\Users\Spectra\AppData\Local\Temp\tmpwv59tzx4wandb\1kqld4mz-wandb-metadata.json
+2021-11-25 16:53:23,264 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,264 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,374 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,375 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,484 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,484 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,594 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,594 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,705 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,706 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,815 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,815 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:23,925 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:23,925 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:24,012 INFO    Thread-18 :20960 [upload_job.py:push():137] Uploaded file C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\config.yaml
+2021-11-25 16:53:24,020 INFO    Thread-19 :20960 [upload_job.py:push():137] Uploaded file C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\output.log
+2021-11-25 16:53:24,022 INFO    Thread-20 :20960 [upload_job.py:push():137] Uploaded file C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\requirements.txt
+2021-11-25 16:53:24,034 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:24,034 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:24,045 INFO    Thread-21 :20960 [upload_job.py:push():137] Uploaded file C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\files\wandb-summary.json
+2021-11-25 16:53:24,146 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:24,147 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:24,254 INFO    Thread-11 :20960 [sender.py:transition_state():395] send defer: 7
+2021-11-25 16:53:24,256 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:24,259 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:24,261 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:24,261 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 7
+2021-11-25 16:53:24,261 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:24,262 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-11-25 16:53:24,365 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:24,567 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 8
+2021-11-25 16:53:24,569 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:24,570 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:24,571 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 8
+2021-11-25 16:53:24,571 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:24,572 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-11-25 16:53:24,572 INFO    SenderThread:20960 [sender.py:transition_state():395] send defer: 9
+2021-11-25 16:53:24,574 DEBUG   SenderThread:20960 [sender.py:send():238] send: final
+2021-11-25 16:53:24,575 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: defer
+2021-11-25 16:53:24,575 INFO    HandlerThread:20960 [handler.py:handle_request_defer():147] handle defer: 9
+2021-11-25 16:53:24,575 DEBUG   SenderThread:20960 [sender.py:send():238] send: footer
+2021-11-25 16:53:24,575 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: defer
+2021-11-25 16:53:24,576 INFO    SenderThread:20960 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-11-25 16:53:24,682 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-25 16:53:24,682 DEBUG   SenderThread:20960 [sender.py:send_request():252] send_request: poll_exit
+2021-11-25 16:53:24,682 INFO    SenderThread:20960 [file_pusher.py:join():182] waiting for file pusher
+2021-11-25 16:53:25,366 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: get_summary
+2021-11-25 16:53:25,367 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: sampled_history
+2021-11-25 16:53:25,368 DEBUG   HandlerThread:20960 [handler.py:handle_request():130] handle_request: shutdown
+2021-11-25 16:53:25,368 INFO    HandlerThread:20960 [handler.py:finish():731] shutting down handler
+2021-11-25 16:53:25,580 INFO    WriterThread:20960 [datastore.py:close():281] close: C:\Users\Spectra\Documents\GitHub\nd0821-c2-build-model-workflow-exercises\wandb\run-20211125_165241-2s1fncbe\run-2s1fncbe.wandb
+2021-11-25 16:53:26,368 INFO    SenderThread:20960 [sender.py:finish():1091] shutting down sender
+2021-11-25 16:53:26,369 INFO    SenderThread:20960 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-25 16:53:26,369 INFO    SenderThread:20960 [file_pusher.py:join():182] waiting for file pusher
+2021-11-25 16:53:26,377 INFO    MainThread:20960 [internal.py:handle_exit():77] Internal process exited
