@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-12-02T13:22:31.752376",
+    "startedAt": "2021-12-02T13:21:48.115346",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/test_data.py",
+    "codePath": "lesson-3-data-validation\\exercises\\exercise_8\\starter\\test_data.py",
+    "git": {
+        "remote": "https://github.com/KimaniKibuthu/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "43010b5f4e04f1b405e9172bc2bc96829e9bc0af"
+    },
+    "email": "32309808+KimaniKibuthu@users.noreply.github.com",
+    "root": "C:/Users/Spectra/Documents/GitHub/nd0821-c2-build-model-workflow-exercises",
+    "host": "DESKTOP-DCSSA3D",
+    "username": "Spectra",
+    "executable": "C:\\Users\\Spectra\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}
